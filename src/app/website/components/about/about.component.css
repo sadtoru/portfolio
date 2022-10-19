@@ -1,0 +1,32 @@
+.about-img img{
+    border-radius: 50%;
+    border: 10px solid whitesmoke;
+    max-height: 500px;
+    clip-path: circle(50% at 50% 50%);
+
+}
+
+.about-img {
+    position: relative;
+
+}
+
+ .svg-caja {
+    position: absolute;
+  top: 85%;
+  right: 40%;
+  
+  
+}
+
+.svg-caja svg{
+    width: 28px;
+  height: 28px;
+
+}
+.svg-caja svg:hover{
+    width: 32px;
+  height: 32px;
+}
+
+
