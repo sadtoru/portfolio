@@ -1,0 +1,12 @@
+/* .experiencias h3 {
+    display: flex;
+    justify-content: space-between;
+    
+} */
+
+ fa-icon{
+    color: red;
+}
+fa-icon:hover{
+    cursor: pointer;
+}

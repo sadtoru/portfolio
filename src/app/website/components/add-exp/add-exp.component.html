@@ -1,0 +1,36 @@
+<form action="" (ngSubmit)="onSubmit()">
+  <div class="mb-2">
+    <input
+      class="form-control"
+      type="text"
+      name="nombre"
+      id="nombre"
+      placeholder="Nombre"
+      [(ngModel)]="nombre"
+      
+    />
+  </div>
+
+  <div class="mb-2">
+    <input
+      class="form-control"
+      type="text"
+      name="duracion"
+      id="duracion"
+      placeholder="Duracion"
+      [(ngModel)]="duracion"
+    />
+  </div>
+
+  <div class="mb-2">
+    <input
+      class="form-control"
+      type="text"
+      name="descripcion"
+      id="descripcion"
+      placeholder="Descripcion"
+      [(ngModel)]="descripcion"
+    />
+  </div>
+  <input type="submit" class="btn btn-outline-secondary" value="Guardar" />
+</form>

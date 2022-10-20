@@ -1,0 +1,34 @@
+{
+  "experiencias": [
+    {
+      "id": 1,
+      "nombre": "trabajo",
+      "duracion": "2019 - 2020",
+      "descripcion": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+    },
+    {
+      "id": 2,
+      "nombre": "trabajo",
+      "duracion": "2019 - 2020",
+      "descripcion": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+    },
+    {
+      "id": 3,
+      "nombre": "trabajo",
+      "duracion": "2019 - 2020",
+      "descripcion": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+    },
+    {
+      "id": 4,
+      "nombre": "trabajo",
+      "duracion": "2019 - 2020",
+      "descripcion": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+    },
+    {
+      "nombre": "Soy una puta trola",
+      "duracion": "Siempre",
+      "descripcion": "puta",
+      "id": 5
+    }
+  ]
+}
