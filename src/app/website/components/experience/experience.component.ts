@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { Experiencia } from 'src/app/model/experiencia.model';
 import { ExperienciaService } from 'src/app/services/experiencia.service';
+import { ShowFormService } from 'src/app/services/show-form.service';
+import {Subscription } from 'rxjs'
 
 @Component({
   selector: 'app-experience',
@@ -11,9 +13,17 @@ export class ExperienceComponent implements OnInit {
 
   experiencia: Experiencia[] = [];
 
+  showAddExp: boolean = true;
+  subscription?: Subscription ;
+
   constructor(
     private experienciaService:ExperienciaService,
-    ) { }
+    private showForm: ShowFormService
+    ) {
+      this.subscription= this.showForm.onToggle().subscribe( data =>
+        this.showAddExp = data
+      )
+     }
 
   ngOnInit(): void {
     this.experienciaService.getExp().subscribe((data)=>{
@@ -33,4 +43,7 @@ export class ExperienceComponent implements OnInit {
     })
   }
 
+  toggleAddExp(){
+    this.showForm.toggleShowForm();
+  }
 }

@@ -1,4 +1,6 @@
-<form action="" (ngSubmit)="onSubmit()">
+<div class="col-12">
+
+<form action="" (ngSubmit)="onSubmit()" *ngIf="showAddExp">
   <div class="mb-2">
     <input
       class="form-control"
@@ -34,3 +36,4 @@
   </div>
   <input type="submit" class="btn btn-outline-secondary" value="Guardar" />
 </form>
+</div>
